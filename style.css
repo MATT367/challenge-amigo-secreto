@@ -88,8 +88,11 @@ body {
 }
 
 .button-container {
+    display: flex;
+    gap: 10px;
     width: 300px;
     justify-content: center;
+    align-items: center;
 }
 
 /* Estilos de entrada de texto */
@@ -147,7 +150,7 @@ ul {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 10px 40px;
+    padding: 10px 50px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
@@ -159,4 +162,9 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+/* Redimensión del png de reiniciar */
+#reiniciar{
+    width: 34px;
+    height: 35px;
 }

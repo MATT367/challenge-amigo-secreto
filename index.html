@@ -31,11 +31,16 @@
                     <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
                     Sortear amigo
                 </button>
+                <!-- Incorporación de un botón paraq reiniciar el juego sin necesidad de F5 -->
+                <button class="button-draw" onclick="reiniciar()" aria-label="Reiniciar juego">
+                    <img id="reiniciar" src="assets/deshacer.png" alt="Icono para reiniciar">
+                    Reiniciar Juego
+                </button>
             </div>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
         </section>
     </main>
 
-    <script src="app.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
